@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mohhmadsabir723-oss.github.io/SAGAR-ART-Royal-Service/sitemap.xml
