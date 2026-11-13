@@ -83,10 +83,30 @@ footer{text-align:center;padding:18px;background:#edf2f9;color:#526078;font-size
 .agri-cta{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin-top:26px}
 .agri-cta .btn{margin:0}
 @media(max-width:600px){.agri-wrap{padding:42px 16px}.agri-banner{border-radius:18px}.agri-card{padding:19px}}
+\n
+/* Mandi market pulse */
+.market-pulse{padding:54px 5%;background:linear-gradient(135deg,#f4fbff,#fffdf1);border-top:1px solid #dce8ef;border-bottom:1px solid #eadfb7}
+.market-inner{max-width:1160px;margin:auto}
+.market-head{text-align:center;margin-bottom:24px}
+.market-head h2{font-size:clamp(25px,4vw,38px);color:#163d68}
+.market-head p{color:#5b6b7c}
+.market-live-label{display:inline-flex;align-items:center;gap:7px;padding:6px 12px;border-radius:30px;background:#e6f7eb;color:#17633b;font-weight:800;font-size:11px;letter-spacing:.7px}
+.market-live-label:before{content:"";width:8px;height:8px;background:#20a45b;border-radius:50%;box-shadow:0 0 0 4px #20a45b22}
+.market-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:13px}
+.market-card{background:white;border:1px solid #e0e8ed;border-radius:16px;padding:18px;box-shadow:0 7px 20px #193d5a0d}
+.market-card small{color:#66798b;font-weight:700}
+.market-card strong{display:block;font-size:25px;color:#173b60;margin:5px 0}
+.market-card em{font-style:normal;font-size:12px;font-weight:800;color:#17844a}
+.market-card em.down{color:#bd3b35}
+.market-foot{margin-top:18px;background:#fff8df;border-left:4px solid #d3a51d;padding:14px 16px;border-radius:9px;color:#62531f;font-size:12px;line-height:1.7}
+.market-links{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:20px}
+.market-links a{display:inline-block;padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:800;background:#153e69;color:#fff}
+.market-links a.alt{background:#e8f1fa;color:#163d68}
+@media(max-width:600px){.market-pulse{padding:40px 16px}.market-card strong{font-size:22px}}
 \n</style>
 </head>
 <body>
-<header><div class="logo">👑 SAGAR ART</div><nav><a href="#home">Home</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#agri">Agri Seeds</a><a href="#payment">Inquiry</a><a href="#contact">Contact</a></nav></header>
+<header><div class="logo">👑 SAGAR ART</div><nav><a href="#home">Home</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#agri">Agri Seeds</a><a href="#market-pulse">Mandi Bhav</a><a href="#payment">Inquiry</a><a href="#contact">Contact</a></nav></header>
 <main>
 <section class="hero" id="home"><a class="hero-link" href="https://wa.me/918769360863?text=Namaste%2C%20mujhe%20SAGAR%20ART%20Royal%20Service%20ke%20baare%20mein%20jaankari%20chahiye." aria-label="WhatsApp par sampark karein"><img src="sagar-royal-banner.jpg" alt="SAGAR ART Royal Service – Painting, Design and Home Services"></a></section>
 <section class="section" id="royal-action" style="padding-top:22px;padding-bottom:22px">
@@ -109,7 +129,29 @@ footer{text-align:center;padding:18px;background:#edf2f9;color:#526078;font-size
 </div></section>
 
 
-<section class="section agri-wrap" id="agri">
+
+<section class="market-pulse" id="market-pulse">
+ <div class="market-inner">
+  <div class="market-head">
+   <span class="market-live-label">LATEST AVAILABLE MARKET REPORT</span>
+   <h2>📊 किसान मंडी भाव और बाजार रुझान</h2>
+   <p>सरसों • गेहूँ • चना • बाजरा | कीमत ₹ प्रति क्विंटल (100 kg)</p>
+  </div>
+  <div class="market-grid">
+   <div class="market-card"><small>🌼 सरसों · राजस्थान औसत</small><strong>₹8,600</strong><em>▲ 1.1% पिछली रिपोर्ट से</em><small>रिपोर्ट: 12 Nov 2026</small></div>
+   <div class="market-card"><small>🌾 गेहूँ · राजस्थान औसत</small><strong>₹2,800</strong><em>▲ 0.6% पिछली रिपोर्ट से</em><small>रिपोर्ट: 12 Nov 2026</small></div>
+   <div class="market-card"><small>🫘 चना · राजस्थान औसत</small><strong>₹6,851</strong><em>▲ 3.0% पिछली रिपोर्ट से</em><small>रिपोर्ट: 12 Nov 2026</small></div>
+   <div class="market-card"><small>🌿 बाजरा · राजस्थान औसत</small><strong>₹2,646</strong><em>▲ 0.8% पिछली रिपोर्ट से</em><small>रिपोर्ट: 12 Nov 2026</small></div>
+  </div>
+  <div class="market-foot"><strong>📍 Hindaun/Karauli के लिए जरूरी नोट:</strong> उपलब्ध सार्वजनिक रिपोर्ट में Hindaun मंडी का ताज़ा 7-दिन का भाव नहीं मिला; कुछ स्थानीय प्रविष्टियाँ पुरानी हैं। ऊपर दिए भाव पूरे राजस्थान की मंडियों के औसत/मध्यक संकेत हैं, Hindaun का पक्का खरीद-बिक्री भाव नहीं। ये 13 Nov 2026 को उपलब्ध नवीनतम रिपोर्ट के आंकड़े हैं, हर मिनट अपडेट होने वाला लाइव टिकर नहीं।</div>
+  <div class="market-foot"><strong>📈 बाजार ऊपर जाएगा या नीचे?</strong> इसकी पक्की भविष्यवाणी कोई नहीं कर सकता। आवक बढ़े तो भाव दब सकते हैं; आवक घटे, मांग/निर्यात बढ़े या मौसम का असर हो तो भाव चढ़ सकते हैं। रोज़ के भाव, आवक और पिछले 7/30 दिन का रुझान देखकर ही निर्णय लें।</div>
+  <div class="market-links">
+   <a href="https://agmarknet.gov.in/" target="_blank" rel="noopener">AGMARKNET सरकारी मंडी भाव ↗</a>
+   <a class="alt" href="https://www.enam.gov.in/web/trading-details" target="_blank" rel="noopener">e-NAM ट्रेडिंग भाव ↗</a>
+   <a class="alt" href="https://data.gov.in/resource/variety-wise-daily-market-prices-data-commodity" target="_blank" rel="noopener">सरकारी डेटा स्रोत ↗</a>
+  </div>
+ </div>
+</section>\n<section class="section agri-wrap" id="agri">
   <div class="agri-banner">
     <div class="kicker">🌾 KISANO KI SEVA • SAGAR AGRI TECH</div>
     <h2>बीज चुनें समझदारी से।<br>फसल बढ़ाएँ भरोसे से।</h2>
