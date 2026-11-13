@@ -57,7 +57,8 @@ footer{text-align:center;padding:18px;background:#edf2f9;color:#526078;font-size
 .hybrid-tag{display:inline-block;background:#fff0a8;color:#654900;border-radius:20px;padding:4px 10px;font-size:11px;font-weight:900;letter-spacing:.7px}
 .agri-note{max-width:900px;margin:20px auto 0;padding:15px;border-left:4px solid #d4a900;background:#fff9df;border-radius:8px;color:#5a4b1c;font-size:13px}
 .agri-cta{text-align:center;margin-top:25px}
-\n
+
+
 /* A-grade Agri Tech experience */
 .agri-wrap{max-width:none;padding:64px max(5%,calc((100% - 1160px)/2));background:radial-gradient(ellipse at 10% 0%,#e8ffe9 0,transparent 42%),radial-gradient(ellipse at 95% 65%,#fff0ad 0,transparent 38%),linear-gradient(135deg,#fbfff8,#fffdf3 58%,#f4fbf0);border-top:1px solid #d6e8c1;border-bottom:1px solid #d6e8c1}
 .agri-banner{position:relative;overflow:hidden;max-width:1160px;margin:0 auto 34px;padding:clamp(28px,5vw,58px);border-radius:26px;text-align:left;color:#fff;background:linear-gradient(115deg,rgba(7,57,31,.97),rgba(20,111,56,.92)),#145c31;box-shadow:0 22px 55px rgba(12,73,35,.22)}
@@ -83,7 +84,8 @@ footer{text-align:center;padding:18px;background:#edf2f9;color:#526078;font-size
 .agri-cta{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin-top:26px}
 .agri-cta .btn{margin:0}
 @media(max-width:600px){.agri-wrap{padding:42px 16px}.agri-banner{border-radius:18px}.agri-card{padding:19px}}
-\n
+
+
 /* Mandi market pulse */
 .market-pulse{padding:54px 5%;background:linear-gradient(135deg,#f4fbff,#fffdf1);border-top:1px solid #dce8ef;border-bottom:1px solid #eadfb7}
 .market-inner{max-width:1160px;margin:auto}
@@ -103,10 +105,48 @@ footer{text-align:center;padding:18px;background:#edf2f9;color:#526078;font-size
 .market-links a{display:inline-block;padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:800;background:#153e69;color:#fff}
 .market-links a.alt{background:#e8f1fa;color:#163d68}
 @media(max-width:600px){.market-pulse{padding:40px 16px}.market-card strong{font-size:22px}}
-\n</style>
+
+
+/* Premium Royal Refresh — November 2026 */
+:root{--gold:#d4a63e;--navy:#102b59;--blue:#1769d2;--ink:#263247;--royal-shadow:0 18px 48px rgba(16,43,89,.12)}
+body{background:radial-gradient(ellipse at 8% 8%,rgba(255,220,130,.28),transparent 34%),radial-gradient(ellipse at 92% 18%,rgba(166,205,255,.30),transparent 38%),linear-gradient(145deg,#fff 0%,#f7faff 48%,#fffaf0 100%)}
+header{padding:14px clamp(14px,4vw,58px);box-shadow:0 8px 28px rgba(16,43,89,.10);border-bottom:1px solid #e5c77e}
+.logo{font-size:clamp(19px,2.5vw,25px);letter-spacing:.5px}
+nav{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:5px}
+nav a{padding:8px 11px;border-radius:22px;transition:all .2s}
+nav a:hover{background:#fff3d5;color:#875800}
+.hero{margin-top:24px}
+.hero-link{border-radius:24px;border:1px solid #d7b45d;box-shadow:0 22px 55px rgba(16,43,89,.16),0 0 0 5px rgba(255,255,255,.75)}
+.intro{padding:clamp(42px,7vw,78px) 18px}
+.royal{font-size:12px;letter-spacing:clamp(2px,1vw,5px);color:#a56e08}
+h1{letter-spacing:.3px;text-shadow:0 5px 24px rgba(23,59,112,.14)}
+.btn{padding:13px 25px;letter-spacing:.15px;box-shadow:0 9px 22px rgba(23,105,210,.20)}
+.btn.dark{box-shadow:0 8px 22px rgba(166,107,0,.12)}
+.section{padding-top:clamp(42px,6vw,72px);padding-bottom:clamp(42px,6vw,72px)}
+.heading h2,.gallery h2{letter-spacing:.2px}
+.heading p{max-width:680px;margin:8px auto 0}
+.card{border-radius:20px;padding:27px 23px;box-shadow:0 12px 32px rgba(32,57,92,.075)}
+.card h3{font-size:18px}
+.card p{line-height:1.8}
+.gallery{background:radial-gradient(ellipse at 10% 0%,#fff 0,transparent 50%),linear-gradient(135deg,#f1f7ff,#fff9e9);padding-top:clamp(42px,6vw,72px);padding-bottom:clamp(42px,6vw,72px)}
+.gallery-box{border-radius:18px;min-height:145px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:7px;box-shadow:0 12px 28px rgba(32,57,92,.08);transition:transform .25s,box-shadow .25s}
+.gallery-box:hover{transform:translateY(-5px);box-shadow:0 18px 35px rgba(32,57,92,.14)}
+.payment{border-radius:24px;padding:clamp(24px,5vw,42px);box-shadow:var(--royal-shadow);background:radial-gradient(circle at 100% 0%,#fff4d4,transparent 42%),linear-gradient(145deg,#fff,#f3f8ff)}
+.payment .price{font-size:clamp(42px,7vw,58px);text-shadow:0 4px 18px #d7ad4b44}
+.warning{background:#fff5dc;border:1px solid #f0d48c;border-radius:12px;padding:12px 14px;line-height:1.7}
+.contact{background:radial-gradient(ellipse at 50% 0%,#fff 0,transparent 55%),linear-gradient(135deg,#edf5ff,#fff7e5);padding:clamp(42px,6vw,72px) 15px}
+footer{background:#102b59;color:#eaf1ff;border-top:3px solid #d4a63e;padding:22px 14px}
+.float{border:2px solid #fff;box-shadow:0 9px 26px rgba(0,0,0,.22)}
+.offer-ribbon{max-width:1160px;margin:14px auto 0;padding:13px 18px;border-radius:16px;text-align:center;background:linear-gradient(100deg,#102b59,#174d88 52%,#8d5b08);color:#fff;box-shadow:0 12px 28px rgba(16,43,89,.18);border:1px solid #e6c56c}
+.offer-ribbon strong{color:#ffe18a;font-size:clamp(20px,4vw,28px);letter-spacing:.5px}
+.offer-ribbon span{display:block;font-size:12px;color:#f6f0df;line-height:1.6}
+@media(max-width:600px){header{gap:7px}nav{flex-wrap:nowrap;justify-content:flex-start;overflow-x:auto;max-width:100%;padding:3px 0 7px;scrollbar-width:thin}nav a{white-space:nowrap;margin:0;font-size:12px;padding:7px 9px}.hero{margin-top:12px}.hero-link{border-radius:15px}.offer-ribbon{margin:10px 12px;padding:12px;border-radius:13px}.card{padding:22px 18px}}
+
+</style>
 </head>
 <body>
 <header><div class="logo">👑 SAGAR ART</div><nav><a href="#home">Home</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#agri">Agri Seeds</a><a href="#market-pulse">Mandi Bhav</a><a href="#payment">Inquiry</a><a href="#contact">Contact</a></nav></header>
+<div class="offer-ribbon" role="note"><strong>✨ FIRST BOOKING पर 10% OFF ✨</strong><span>पहली बुकिंग पर छूट • ₹200 inquiry fee का भुगतान और सत्यापन आवश्यक • पूरी शर्तें बुकिंग से पहले स्पष्ट की जाएँगी</span></div>
 <main>
 <section class="hero" id="home"><a class="hero-link" href="https://wa.me/918769360863?text=Namaste%2C%20mujhe%20SAGAR%20ART%20Royal%20Service%20ke%20baare%20mein%20jaankari%20chahiye." aria-label="WhatsApp par sampark karein"><img src="sagar-royal-banner.jpg" alt="SAGAR ART Royal Service – Painting, Design and Home Services"></a></section>
 <section class="section" id="royal-action" style="padding-top:22px;padding-bottom:22px">
@@ -147,7 +187,8 @@ footer{text-align:center;padding:18px;background:#edf2f9;color:#526078;font-size
   <div class="market-foot"><strong>📈 भाव ऊपर/नीचे कब होगा?</strong> बीज-पैकेट की कीमत कंपनी की नई प्राइस लिस्ट, सीजन, स्टॉक, डीलर मार्जिन और माल-ढुलाई से बदलती है। अभी कोई भरोसेमंद लाइव ऐतिहासिक श्रृंखला उपलब्ध नहीं मिली, इसलिए प्रतिशत बढ़त/गिरावट या भविष्यवाणी नहीं दिखाई जा रही। इस पेज पर दिए भाव सार्वजनिक सप्लायर लिस्टिंग के संकेत हैं, पक्का/गारंटीड खरीद भाव नहीं।</div>
   <div class="market-links"><a href="https://www.keyaagriseeds.com/agriculture-seeds.html" target="_blank" rel="noopener">Keya Jaipur सप्लायर ↗</a><a class="alt" href="https://safalfasalonline.in/catalog/field-crop-seeds-agricultural-inputs" target="_blank" rel="noopener">Safal Fasal कैटलॉग ↗</a><a class="alt" href="https://wa.me/918769360863?text=Namaste%2C%20mujhe%20hybrid%20beej%20ke%20aaj%20ke%20wholesale%20rate%2C%20GST%20bill%20aur%20MOQ%20ki%20likhit%20quotation%20chahiye." target="_blank" rel="noopener">लिखित थोक भाव माँगें ↗</a></div>
  </div>
-</section>\n
+</section>
+
 <section class="section agri-wrap" id="agri">
   <div class="agri-banner">
     <div class="kicker">🌾 KISANO KI SEVA • SAGAR AGRI TECH</div>
@@ -177,7 +218,8 @@ footer{text-align:center;padding:18px;background:#edf2f9;color:#526078;font-size
   </div>
   <div class="agri-note"><strong>महत्वपूर्ण:</strong> सिर्फ हाइब्रिड उत्पाद ही शामिल होंगे। किसी फसल में वास्तविक हाइब्रिड किस्म/उत्पाद की पुष्टि न होने पर उसे उपलब्ध बताकर नहीं दिखाया जाएगा। खरीद से पहले कंपनी, किस्म, बैच, वैधता, अंकुरण/शुद्धता विवरण, MRP और बिल जाँचें। फसल की पैदावार या भाव की गारंटी नहीं है।</div>
 </section>
-\n<section class="gallery" id="gallery"><h2>Our Royal Art Gallery</h2><p>हमारी Painting और Artwork की दुनिया में आपका स्वागत है।</p><div class="gallery-grid"><div class="gallery-box">🎨<br>Wall Painting</div><div class="gallery-box">💍<br>Wedding Painting</div><div class="gallery-box">🏡<br>Interior Design</div><div class="gallery-box">🚜<br>Vehicle Artwork</div></div><a class="btn" href="https://wa.me/918769360863?text=Namaste%2C%20mujhe%20aapka%20artwork%20dekhna%20hai.">अपना काम दिखाएँ</a></section>
+
+<section class="gallery" id="gallery"><h2>Our Royal Art Gallery</h2><p>हमारी Painting और Artwork की दुनिया में आपका स्वागत है।</p><div class="gallery-grid"><div class="gallery-box">🎨<br>Wall Painting</div><div class="gallery-box">💍<br>Wedding Painting</div><div class="gallery-box">🏡<br>Interior Design</div><div class="gallery-box">🚜<br>Vehicle Artwork</div></div><a class="btn" href="https://wa.me/918769360863?text=Namaste%2C%20mujhe%20aapka%20artwork%20dekhna%20hai.">अपना काम दिखाएँ</a></section>
 <section class="section" id="payment"><div class="heading"><h2>Service Inquiry</h2><p>सेवा की विस्तृत जानकारी प्राप्त करें</p></div><div class="payment"><h3>Royal Service Inquiry</h3><div class="price">₹200</div><p>Service Inquiry / Consultation Charge</p><p class="warning">⚠️ महत्वपूर्ण: ₹200 का Inquiry Charge भुगतान करने से पहले ध्यान दें कि यह शुल्क Non-Refundable (वापस नहीं होगा) है।</p><a class="btn" href="https://rzp.io/rzp/pXgcp7X4" target="_blank" rel="noopener">₹200 PAY NOW</a><a class="btn dark" href="https://wa.me/918769360863">पहले जानकारी पूछें</a><p style="font-size:12px;color:#ddd;margin-top:15px">भुगतान की पुष्टि फिलहाल टीम द्वारा रसीद जाँचकर WhatsApp पर की जाएगी। Automatic Payment Verification अभी सक्रिय नहीं है।</p></div></section>
 <section class="contact" id="contact"><h2>👑 SAGAR ART Royal Service</h2><p>आपका काम, हमारा Royal अंदाज!</p><p>📍 322230 Hindaun City, Rajasthan</p><p>📞 8769360863</p><a class="btn" href="tel:+918769360863">अभी Call करें</a><a class="btn dark" href="https://wa.me/918769360863">WhatsApp करें</a></section>
 </main>
