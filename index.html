@@ -1,125 +1,71 @@
-
 <!DOCTYPE html>
 <html lang="hi">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#10172a">
+<meta name="theme-color" content="#071a45">
 <meta name="description" content="SAGAR ART Royal Service – Premium painting, wedding artwork, interior, exterior, marble, granite and home services in Hindaun City Rajasthan.">
 <meta property="og:title" content="SAGAR ART Royal Service">
 <meta property="og:description" content="आपका काम, हमारा Royal अंदाज!">
-<meta property="og:image" content="royal-banner.svg">
+<meta property="og:image" content="sagar-royal-banner.jpg">
 <title>SAGAR ART Royal Service | Official Website</title>
-
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{
-font-family:Arial,'Noto Sans Devanagari',sans-serif;
-background:#0c1222;color:#fff;line-height:1.7
-}
-:root{--gold:#e9bd65;--dark:#10172a;--cream:#fff8e9}
-header{
-position:sticky;top:0;z-index:99;
-background:#10172af2;
-border-bottom:1px solid #b78c43;
-padding:13px 5%;
-display:flex;align-items:center;
-justify-content:space-between;flex-wrap:wrap;gap:12px
-}
+body{font-family:Arial,'Noto Sans Devanagari',sans-serif;background:#081329;color:#fff;line-height:1.7}
+:root{--gold:#f4c45e;--dark:#081329;--blue:#087cff;--cream:#fff8e9}
+header{position:sticky;top:0;z-index:99;background:#07142bf5;border-bottom:1px solid #c99a42;padding:13px 5%;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
 .logo{font-size:21px;font-weight:900;color:var(--gold)}
 nav a{color:white;text-decoration:none;margin:0 9px;font-size:14px}
-nav a:hover{color:var(--gold)}
-.hero{max-width:1250px;margin:22px auto;padding:0 15px}
-.hero img{width:100%;display:block;border-radius:16px;border:2px solid #bd934e;box-shadow:0 12px 40px #0008}
+nav a:hover{color:#55aaff}
+.hero{max-width:1450px;margin:18px auto;padding:0 12px}
+.hero-link{display:block;position:relative;border-radius:18px;overflow:hidden;border:2px solid #d7ad52;box-shadow:0 12px 42px #000b}
+.hero img{width:100%;height:auto;display:block}
+.hero-link:focus-visible{outline:4px solid #168cff;outline-offset:4px}
 .intro{text-align:center;padding:45px 18px 55px}
 .royal{color:var(--gold);letter-spacing:4px;font-weight:bold}
 h1{font-size:clamp(30px,6vw,55px);line-height:1.25;margin:12px 0}
 .intro p{max-width:750px;margin:15px auto;color:#ddd}
-.btn{
-display:inline-block;padding:13px 23px;margin:7px;
-border-radius:30px;text-decoration:none;font-weight:bold;
-background:linear-gradient(135deg,#f8dc99,#b7812d);
-color:#171321;transition:.3s
-}
-.btn:hover{transform:translateY(-3px);box-shadow:0 7px 20px #d7ad5c55}
-.btn.dark{background:transparent;border:1px solid var(--gold);color:var(--gold)}
+.btn{display:inline-block;padding:13px 23px;margin:7px;border-radius:30px;text-decoration:none;font-weight:900;background:linear-gradient(135deg,#087cff,#003db5);border:1px solid #8bc5ff;color:white;box-shadow:0 0 18px #087cff77;transition:.3s}
+.btn:hover{transform:translateY(-3px);box-shadow:0 0 26px #168cffaa}
+.btn.dark{background:transparent;border:1px solid var(--gold);color:var(--gold);box-shadow:none}
 .section{padding:55px 6%;max-width:1250px;margin:auto}
 .heading{text-align:center;margin-bottom:32px}
 .heading h2{font-size:clamp(25px,4vw,36px);color:var(--gold)}
 .heading p{color:#ccc;margin-top:7px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
-.card{
-background:linear-gradient(145deg,#1b2740,#111a2c);
-border:1px solid #80632f;border-radius:15px;
-padding:25px 20px;transition:.3s
-}
+.card{background:linear-gradient(145deg,#1b2d50,#101d35);border:1px solid #80632f;border-radius:15px;padding:25px 20px;transition:.3s}
 .card:hover{transform:translateY(-6px);border-color:var(--gold)}
 .symbol{font-size:32px;margin-bottom:10px}
 .card h3{color:var(--gold);margin-bottom:8px}
 .card p{color:#ddd;font-size:14px}
-.gallery{
-background:#fff8e9;color:#192039;
-padding:55px 6%;text-align:center
-}
+.gallery{background:#fff8e9;color:#192039;padding:55px 6%;text-align:center}
 .gallery h2{color:#95671e;font-size:32px}
 .gallery p{margin:10px auto;max-width:650px}
-.gallery-grid{
-max-width:1100px;margin:25px auto;
-display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px
-}
-.gallery-box{
-background:linear-gradient(145deg,#18223b,#8b642e);
-color:white;border:2px solid #c69a4e;border-radius:13px;
-padding:35px 12px;font-size:17px;font-weight:bold
-}
-.payment{
-background:linear-gradient(135deg,#18223b,#29344d);
-border:2px solid var(--gold);border-radius:18px;
-padding:28px;text-align:center;max-width:750px;margin:auto
-}
+.gallery-grid{max-width:1100px;margin:25px auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.gallery-box{background:linear-gradient(145deg,#18223b,#8b642e);color:white;border:2px solid #c69a4e;border-radius:13px;padding:35px 12px;font-size:17px;font-weight:bold}
+.payment{background:linear-gradient(135deg,#18223b,#29344d);border:2px solid var(--gold);border-radius:18px;padding:28px;text-align:center;max-width:750px;margin:auto}
 .price{font-size:44px;color:var(--gold);font-weight:900}
 .warning{color:#ffd68c;font-size:13px;margin:12px 0}
-.contact{
-background:#090e1b;text-align:center;
-padding:55px 15px;border-top:2px solid var(--gold)
-}
+.contact{background:#060d1b;text-align:center;padding:55px 15px;border-top:2px solid var(--gold)}
 .contact h2{color:var(--gold);font-size:30px}
 .contact p{margin:8px;color:#ddd}
-footer{text-align:center;padding:18px;background:#080c16;color:#aaa;font-size:13px}
-.float{
-position:fixed;right:17px;bottom:18px;z-index:100;
-background:#20b95b;color:white;border-radius:40px;
-padding:12px 18px;text-decoration:none;font-weight:bold;
-box-shadow:0 5px 18px #0008
-}
-@media(max-width:600px){
-header{justify-content:center;text-align:center}
-nav{width:100%}
-nav a{margin:0 6px;font-size:13px}
-.section{padding:38px 17px}
-}
+footer{text-align:center;padding:18px;background:#050a14;color:#aaa;font-size:13px}
+.float{position:fixed;right:17px;bottom:18px;z-index:100;background:#20b95b;color:white;border-radius:40px;padding:12px 18px;text-decoration:none;font-weight:bold;box-shadow:0 5px 18px #0008}
+@media(max-width:600px){header{justify-content:center;text-align:center}nav{width:100%}nav a{margin:0 6px;font-size:13px}.section{padding:38px 17px}.hero{padding:0 7px;margin:8px auto}.hero-link{border-radius:10px}}
 </style>
 </head>
-
 <body>
-
 <header>
 <div class="logo">👑 SAGAR ART</div>
-<nav>
-<a href="#home">Home</a>
-<a href="#services">Services</a>
-<a href="#gallery">Gallery</a>
-<a href="#payment">Inquiry</a>
-<a href="#contact">Contact</a>
-</nav>
+<nav><a href="#home">Home</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#payment">Inquiry</a><a href="#contact">Contact</a></nav>
 </header>
-
 <main>
 <section class="hero" id="home">
-<img src="royal-banner.svg" alt="SAGAR ART Royal Service">
+<a class="hero-link" href="https://wa.me/918769360863?text=Namaste%2C%20mujhe%20SAGAR%20ART%20Royal%20Service%20ke%20baare%20mein%20jaankari%20chahiye." aria-label="Click karo abhi – WhatsApp par sampark karein">
+<img src="sagar-royal-banner.jpg" alt="SAGAR ART Royal Service – Sabir Khan, Painting, Design and Home Services">
+</a>
 </section>
-
 <section class="intro">
 <div class="royal">WELCOME TO THE ROYAL WORLD</div>
 <h1>SAGAR ART<br><span style="color:#e9bd65">ROYAL SERVICE</span></h1>
@@ -127,12 +73,8 @@ nav a{margin:0 6px;font-size:13px}
 <a class="btn" href="https://wa.me/918769360863">✆ अभी संपर्क करें</a>
 <a class="btn dark" href="#services">हमारी Services देखें</a>
 </section>
-
 <section class="section" id="services">
-<div class="heading">
-<h2>👑 हमारी Royal Services</h2>
-<p>हर काम में कला, हर डिजाइन में खूबसूरती</p>
-</div>
+<div class="heading"><h2>👑 हमारी Royal Services</h2><p>हर काम में कला, हर डिजाइन में खूबसूरती</p></div>
 <div class="grid">
 <div class="card"><div class="symbol">🎨</div><h3>Painting & Artwork</h3><p>Home Painting, Interior, Exterior, Wall Painting और Stencil Design।</p></div>
 <div class="card"><div class="symbol">💍</div><h3>Wedding Painting</h3><p>शादी और खास मौकों के लिए खूबसूरत Wedding Painting और Special Artwork।</p></div>
@@ -144,54 +86,23 @@ nav a{margin:0 6px;font-size:13px}
 <div class="card"><div class="symbol">🎒</div><h3>Bag Painting</h3><p>बैग पर खूबसूरत रंग और कस्टम Artwork।</p></div>
 </div>
 </section>
-
 <section class="gallery" id="gallery">
-<h2>Our Royal Art Gallery</h2>
-<p>हमारी Painting और Artwork की दुनिया में आपका स्वागत है।</p>
-<div class="gallery-grid">
-<div class="gallery-box">🎨<br>Wall Painting</div>
-<div class="gallery-box">💍<br>Wedding Painting</div>
-<div class="gallery-box">🏡<br>Interior Design</div>
-<div class="gallery-box">🚜<br>Vehicle Artwork</div>
-</div>
+<h2>Our Royal Art Gallery</h2><p>हमारी Painting और Artwork की दुनिया में आपका स्वागत है।</p>
+<div class="gallery-grid"><div class="gallery-box">🎨<br>Wall Painting</div><div class="gallery-box">💍<br>Wedding Painting</div><div class="gallery-box">🏡<br>Interior Design</div><div class="gallery-box">🚜<br>Vehicle Artwork</div></div>
 <a class="btn" href="https://wa.me/918769360863?text=Namaste%2C%20mujhe%20aapka%20artwork%20dekhna%20hai.">अपना काम दिखाएँ</a>
 </section>
-
 <section class="section" id="payment">
-<div class="heading">
-<h2>Service Inquiry</h2>
-<p>सेवा की विस्तृत जानकारी प्राप्त करें</p>
-</div>
-<div class="payment">
-<h3>Royal Service Inquiry</h3>
-<div class="price">₹200</div>
-<p>Service Inquiry / Consultation Charge</p>
+<div class="heading"><h2>Service Inquiry</h2><p>सेवा की विस्तृत जानकारी प्राप्त करें</p></div>
+<div class="payment"><h3>Royal Service Inquiry</h3><div class="price">₹200</div><p>Service Inquiry / Consultation Charge</p>
 <p class="warning">⚠️ महत्वपूर्ण: ₹200 का Inquiry Charge भुगतान करने से पहले ध्यान दें कि यह शुल्क Non-Refundable (वापस नहीं होगा) है।</p>
 <a class="btn" href="https://rzp.io/rzp/pXgcp7X4" target="_blank" rel="noopener">₹200 PAY NOW</a>
 <a class="btn dark" href="https://wa.me/918769360863">पहले जानकारी पूछें</a>
-<p style="font-size:12px;color:#ddd;margin-top:15px">भुगतान की पुष्टि फिलहाल टीम द्वारा रसीद जाँचकर WhatsApp पर की जाएगी। Automatic Payment Verification अभी सक्रिय नहीं है।</p>
-</div>
+<p style="font-size:12px;color:#ddd;margin-top:15px">भुगतान की पुष्टि फिलहाल टीम द्वारा रसीद जाँचकर WhatsApp पर की जाएगी। Automatic Payment Verification अभी सक्रिय नहीं है।</p></div>
 </section>
-
-<section class="contact" id="contact">
-<h2>👑 SAGAR ART Royal Service</h2>
-<p>आपका काम, हमारा Royal अंदाज!</p>
-<p>📍 322230 Hindaun City, Rajasthan</p>
-<p>📞 8769360863</p>
-<a class="btn" href="tel:+918769360863">अभी Call करें</a>
-<a class="btn dark" href="https://wa.me/918769360863">WhatsApp करें</a>
-</section>
+<section class="contact" id="contact"><h2>👑 SAGAR ART Royal Service</h2><p>आपका काम, हमारा Royal अंदाज!</p><p>📍 322230 Hindaun City, Rajasthan</p><p>📞 8769360863</p><a class="btn" href="tel:+918769360863">अभी Call करें</a><a class="btn dark" href="https://wa.me/918769360863">WhatsApp करें</a></section>
 </main>
-
-<footer>
-© <span id="year"></span> SAGAR ART Royal Service. All Rights Reserved.
-</footer>
-
+<footer>© <span id="year"></span> SAGAR ART Royal Service. All Rights Reserved.</footer>
 <a class="float" href="https://wa.me/918769360863">WhatsApp ✆</a>
-
-<script>
-document.getElementById('year').textContent=new Date().getFullYear();
-</script>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
 </body>
 </html>
-royal-banner-photo
