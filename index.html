@@ -10,6 +10,93 @@
 <meta property="og:image" content="sagar-royal-banner.jpg">
 <title>SAGAR ART Royal Service | Official Website</title>
 <style>
+/* PATHAAN-STYLE CINEMATIC ROYAL BACKGROUND */
+
+html {
+  min-height: 100%;
+  background: #050711;
+}
+
+body {
+  min-height: 100vh;
+  color: #fff;
+  background:
+    radial-gradient(ellipse at 15% 20%, rgba(160, 35, 15, .38), transparent 38%),
+    radial-gradient(ellipse at 85% 25%, rgba(20, 65, 145, .45), transparent 42%),
+    radial-gradient(ellipse at 50% 100%, rgba(180, 115, 20, .20), transparent 45%),
+    linear-gradient(135deg, #03040a, #10182b 48%, #050711);
+  background-size: 180% 180%;
+  animation: pathaanBackground 18s ease-in-out infinite alternate;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Cinematic golden light and sparks */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 20% 30%, rgba(255, 180, 50, .22), transparent 3%),
+    radial-gradient(circle at 75% 65%, rgba(255, 90, 25, .18), transparent 4%),
+    radial-gradient(ellipse at 50% 0%, rgba(255, 210, 120, .13), transparent 48%),
+    repeating-linear-gradient(
+      115deg,
+      transparent 0 90px,
+      rgba(255, 190, 80, .025) 92px,
+      transparent 95px
+    );
+  animation: goldenLights 9s ease-in-out infinite alternate;
+}
+
+/* Dark cinematic overlay */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, transparent 55%, rgba(0, 0, 0, .48)),
+    radial-gradient(ellipse at center, transparent 35%, rgba(0, 0, 0, .48));
+}
+
+/* Keep website content above background */
+body > * {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes pathaanBackground {
+  0% {
+    background-position: 0% 30%;
+  }
+  100% {
+    background-position: 100% 70%;
+  }
+}
+
+@keyframes goldenLights {
+  0% {
+    opacity: .45;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body,
+  body::before {
+    animation: none;
+  }
+}
+
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{font-family:Arial,'Noto Sans Devanagari',sans-serif;background:radial-gradient(ellipse at 50% -15%,#273b70 0%,#101a35 38%,#050914 78%);color:#fff;line-height:1.7;position:relative;isolation:isolate}
@@ -58,6 +145,93 @@ footer{text-align:center;padding:18px;background:#050a14;color:#aaa;font-size:13
 @media(max-width:600px){header{justify-content:center;text-align:center}nav{width:100%}nav a{margin:0 6px;font-size:13px}.section{padding:38px 17px}.hero{padding:0 7px;margin:8px auto}.hero-link{border-radius:10px}}
 </style>
 </head>
+/* PATHAAN-STYLE CINEMATIC ROYAL BACKGROUND */
+
+html {
+  min-height: 100%;
+  background: #050711;
+}
+
+body {
+  min-height: 100vh;
+  color: #fff;
+  background:
+    radial-gradient(ellipse at 15% 20%, rgba(160, 35, 15, .38), transparent 38%),
+    radial-gradient(ellipse at 85% 25%, rgba(20, 65, 145, .45), transparent 42%),
+    radial-gradient(ellipse at 50% 100%, rgba(180, 115, 20, .20), transparent 45%),
+    linear-gradient(135deg, #03040a, #10182b 48%, #050711);
+  background-size: 180% 180%;
+  animation: pathaanBackground 18s ease-in-out infinite alternate;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Cinematic golden light and sparks */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 20% 30%, rgba(255, 180, 50, .22), transparent 3%),
+    radial-gradient(circle at 75% 65%, rgba(255, 90, 25, .18), transparent 4%),
+    radial-gradient(ellipse at 50% 0%, rgba(255, 210, 120, .13), transparent 48%),
+    repeating-linear-gradient(
+      115deg,
+      transparent 0 90px,
+      rgba(255, 190, 80, .025) 92px,
+      transparent 95px
+    );
+  animation: goldenLights 9s ease-in-out infinite alternate;
+}
+
+/* Dark cinematic overlay */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, transparent 55%, rgba(0, 0, 0, .48)),
+    radial-gradient(ellipse at center, transparent 35%, rgba(0, 0, 0, .48));
+}
+
+/* Keep website content above background */
+body > * {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes pathaanBackground {
+  0% {
+    background-position: 0% 30%;
+  }
+  100% {
+    background-position: 100% 70%;
+  }
+}
+
+@keyframes goldenLights {
+  0% {
+    opacity: .45;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body,
+  body::before {
+    animation: none;
+  }
+}
+
 <body>
 <header>
 <div class="logo">👑 SAGAR ART</div>
@@ -109,3 +283,89 @@ footer{text-align:center;padding:18px;background:#050a14;color:#aaa;font-size:13
 <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
 </body>
 </html>
+/* PATHAAN-STYLE CINEMATIC ROYAL BACKGROUND */
+
+html {
+  min-height: 100%;
+  background: #050711;
+}
+
+body {
+  min-height: 100vh;
+  color: #fff;
+  background:
+    radial-gradient(ellipse at 15% 20%, rgba(160, 35, 15, .38), transparent 38%),
+    radial-gradient(ellipse at 85% 25%, rgba(20, 65, 145, .45), transparent 42%),
+    radial-gradient(ellipse at 50% 100%, rgba(180, 115, 20, .20), transparent 45%),
+    linear-gradient(135deg, #03040a, #10182b 48%, #050711);
+  background-size: 180% 180%;
+  animation: pathaanBackground 18s ease-in-out infinite alternate;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Cinematic golden light and sparks */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 20% 30%, rgba(255, 180, 50, .22), transparent 3%),
+    radial-gradient(circle at 75% 65%, rgba(255, 90, 25, .18), transparent 4%),
+    radial-gradient(ellipse at 50% 0%, rgba(255, 210, 120, .13), transparent 48%),
+    repeating-linear-gradient(
+      115deg,
+      transparent 0 90px,
+      rgba(255, 190, 80, .025) 92px,
+      transparent 95px
+    );
+  animation: goldenLights 9s ease-in-out infinite alternate;
+}
+
+/* Dark cinematic overlay */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, transparent 55%, rgba(0, 0, 0, .48)),
+    radial-gradient(ellipse at center, transparent 35%, rgba(0, 0, 0, .48));
+}
+
+/* Keep website content above background */
+body > * {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes pathaanBackground {
+  0% {
+    background-position: 0% 30%;
+  }
+  100% {
+    background-position: 100% 70%;
+  }
+}
+
+@keyframes goldenLights {
+  0% {
+    opacity: .45;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.04);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body,
+  body::before {
+    animation: none;
+  }
+}
