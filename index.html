@@ -12,9 +12,12 @@
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{font-family:Arial,'Noto Sans Devanagari',sans-serif;background:#081329;color:#fff;line-height:1.7}
+body{font-family:Arial,'Noto Sans Devanagari',sans-serif;background:radial-gradient(ellipse at 50% -15%,#273b70 0%,#101a35 38%,#050914 78%);color:#fff;line-height:1.7;position:relative;isolation:isolate}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(circle at 12% 22%,#f5c96b22 0 1px,transparent 3px),radial-gradient(circle at 82% 16%,#ffe3a044 0 1px,transparent 3px),radial-gradient(circle at 68% 62%,#d9a44122 0 1px,transparent 3px),radial-gradient(ellipse at 50% 0%,#d8a94b18,transparent 55%),linear-gradient(120deg,#040813dd,#101b35aa 48%,#050914ee);background-size:190px 190px,240px 240px,280px 280px,100% 100%,100% 100%}
+body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.35;background:linear-gradient(115deg,transparent 35%,#f5d58a0a 48%,transparent 60%);animation:royalLight 12s ease-in-out infinite alternate}
+@keyframes royalLight{from{transform:translateX(-8%)}to{transform:translateX(8%)}}
 :root{--gold:#f4c45e;--dark:#081329;--blue:#087cff;--cream:#fff8e9}
-header{position:sticky;top:0;z-index:99;background:#07142bf5;border-bottom:1px solid #c99a42;padding:13px 5%;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+header{position:sticky;top:0;z-index:99;background:#07142be8;backdrop-filter:blur(14px);border-bottom:1px solid #c99a42;padding:13px 5%;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
 .logo{font-size:21px;font-weight:900;color:var(--gold)}
 nav a{color:white;text-decoration:none;margin:0 9px;font-size:14px}
 nav a:hover{color:#55aaff}
@@ -34,7 +37,7 @@ h1{font-size:clamp(30px,6vw,55px);line-height:1.25;margin:12px 0}
 .heading h2{font-size:clamp(25px,4vw,36px);color:var(--gold)}
 .heading p{color:#ccc;margin-top:7px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
-.card{background:linear-gradient(145deg,#1b2d50,#101d35);border:1px solid #80632f;border-radius:15px;padding:25px 20px;transition:.3s}
+.card{background:linear-gradient(145deg,#ffffff12,#13213de8);backdrop-filter:blur(8px);border:1px solid #80632f;border-radius:15px;padding:25px 20px;transition:.3s}
 .card:hover{transform:translateY(-6px);border-color:var(--gold)}
 .symbol{font-size:32px;margin-bottom:10px}
 .card h3{color:var(--gold);margin-bottom:8px}
