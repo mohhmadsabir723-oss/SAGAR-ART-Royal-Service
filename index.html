@@ -142,10 +142,30 @@ footer{background:#102b59;color:#eaf1ff;border-top:3px solid #d4a63e;padding:22p
 .offer-ribbon span{display:block;font-size:12px;color:#f6f0df;line-height:1.6}
 @media(max-width:600px){header{gap:7px}nav{flex-wrap:nowrap;justify-content:flex-start;overflow-x:auto;max-width:100%;padding:3px 0 7px;scrollbar-width:thin}nav a{white-space:nowrap;margin:0;font-size:12px;padding:7px 9px}.hero{margin-top:12px}.hero-link{border-radius:15px}.offer-ribbon{margin:10px 12px;padding:12px;border-radius:13px}.card{padding:22px 18px}}
 
+
+/* SABIR PAINTER wedding spotlight */
+.wedding-spotlight{max-width:1160px;margin:28px auto;padding:clamp(22px,4vw,38px);border:1px solid #dfbd70;border-radius:24px;background:linear-gradient(120deg,#fff,#fff7e4 52%,#eef6ff);box-shadow:0 16px 42px rgba(16,43,89,.12)}
+.wedding-spotlight .spot-kicker{font-size:11px;font-weight:900;letter-spacing:2.5px;color:#a66b00;text-align:center}
+.wedding-spotlight h2{text-align:center;color:#173b70;font-size:clamp(25px,4vw,38px);margin:7px 0}
+.wedding-spotlight .spot-desc{text-align:center;color:#59677c;margin:0 auto 20px;max-width:700px}
+.wedding-photos{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:16px}
+.wedding-photo{overflow:hidden;border-radius:17px;background:#fff;border:1px solid #e3cb8e;box-shadow:0 8px 24px #102b5914}
+.wedding-photo img{width:100%;height:280px;object-fit:cover;display:block}
+.wedding-photo .photo-caption{padding:12px 14px;color:#526078;font-size:12px}
+.wedding-photo .photo-caption strong{display:block;color:#174a89;font-size:15px}
+.wedding-cta{text-align:center;margin-top:20px}
+.royal-marquee{overflow:hidden;background:linear-gradient(90deg,#102b59,#8c5c0b,#102b59);color:#fff;border-top:1px solid #f1d88f;border-bottom:1px solid #f1d88f;padding:12px 0;white-space:nowrap}
+.royal-marquee .marquee-track{display:inline-block;padding-left:100%;animation:royalScroll 24s linear infinite;font-weight:900;letter-spacing:.5px}
+.royal-marquee a{color:#ffe18a;text-decoration:none}
+@keyframes royalScroll{to{transform:translateX(-100%)}}
+@media(prefers-reduced-motion:reduce){.royal-marquee .marquee-track{animation:none;padding-left:0;white-space:normal;display:block;text-align:center}}
+@media(max-width:600px){.wedding-spotlight{margin:18px 12px;padding:20px 14px}.wedding-photo img{height:230px}}
+
 </style>
 </head>
 <body>
 <header><div class="logo">👑 SAGAR ART</div><nav><a href="#home">Home</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#agri">Agri Seeds</a><a href="#market-pulse">Mandi Bhav</a><a href="#payment">Inquiry</a><a href="#contact">Contact</a></nav></header>
+<div class="royal-marquee" aria-label="SABIR PAINTER wedding painting advertisement"><div class="marquee-track">👑 SABIR PAINTER • WEDDING PAINTING • MANDAP & WALL ART • CALL 8769360863 • <a href="https://wa.me/918769360863">WHATSAPP NOW</a> • SAGAR ART ROYAL SERVICE • HINDAUN CITY 322230 • 👑&nbsp;</div></div>
 <div class="offer-ribbon" role="note"><strong>✨ FIRST BOOKING पर 10% OFF ✨</strong><span>पहली बुकिंग पर छूट • ₹200 inquiry fee का भुगतान और सत्यापन आवश्यक • पूरी शर्तें बुकिंग से पहले स्पष्ट की जाएँगी</span></div>
 <main>
 <section class="hero" id="home"><a class="hero-link" href="https://wa.me/918769360863?text=Namaste%2C%20mujhe%20SAGAR%20ART%20Royal%20Service%20ke%20baare%20mein%20jaankari%20chahiye." aria-label="WhatsApp par sampark karein"><img src="sagar-royal-banner.jpg" alt="SAGAR ART Royal Service – Painting, Design and Home Services"></a></section>
@@ -219,7 +239,7 @@ footer{background:#102b59;color:#eaf1ff;border-top:3px solid #d4a63e;padding:22p
   <div class="agri-note"><strong>महत्वपूर्ण:</strong> सिर्फ हाइब्रिड उत्पाद ही शामिल होंगे। किसी फसल में वास्तविक हाइब्रिड किस्म/उत्पाद की पुष्टि न होने पर उसे उपलब्ध बताकर नहीं दिखाया जाएगा। खरीद से पहले कंपनी, किस्म, बैच, वैधता, अंकुरण/शुद्धता विवरण, MRP और बिल जाँचें। फसल की पैदावार या भाव की गारंटी नहीं है।</div>
 </section>
 
-<section class="gallery" id="gallery"><h2>Our Royal Art Gallery</h2><p>हमारी Painting और Artwork की दुनिया में आपका स्वागत है।</p><div class="gallery-grid"><div class="gallery-box">🎨<br>Wall Painting</div><div class="gallery-box">💍<br>Wedding Painting</div><div class="gallery-box">🏡<br>Interior Design</div><div class="gallery-box">🚜<br>Vehicle Artwork</div></div><a class="btn" href="https://wa.me/918769360863?text=Namaste%2C%20mujhe%20aapka%20artwork%20dekhna%20hai.">अपना काम दिखाएँ</a></section>
+<section class="gallery" id="gallery"><h2>Our Royal Art Gallery</h2><p>Wedding Painting, Mandap Art और Royal Decoration के चुनिंदा visual references। अपने असली काम की तस्वीरें भी हमें भेजें—उन्हें आपकी portfolio gallery में जोड़ा जा सकता है।</p><div class="wedding-spotlight"><div class="spot-kicker">SABIR PAINTER • WEDDING SPECIAL</div><h2>शादी के हर पल को बनाइए यादगार</h2><p class="spot-desc">Wedding Painting • Couple Portrait • Mandap Artwork • Wall Painting</p><div class="wedding-photos"><article class="wedding-photo"><img src="https://images.pexels.com/photos/36836726/pexels-photo-36836726/free-photo-of-vibrant-indian-wedding-couple-under-mandap.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Indian wedding couple under decorated mandap"><div class="photo-caption"><strong>Royal Wedding Couple</strong>Photo: Gaurav Vishwakarma via Pexels · <a href="https://www.pexels.com/photo/vibrant-indian-wedding-couple-under-mandap-36836726/" target="_blank" rel="noopener">Photo source</a></div></article><article class="wedding-photo"><img src="https://images.pexels.com/photos/39797465/pexels-photo-39797465/free-photo-of-elegant-outdoor-indian-wedding-mandap-decor.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="Elegant Indian wedding mandap with floral decorations"><div class="photo-caption"><strong>Elegant Mandap Decoration</strong>Photo: Uday Ahir via Pexels · <a href="https://www.pexels.com/photo/elegant-outdoor-indian-wedding-mandap-decor-39797465/" target="_blank" rel="noopener">Photo source</a></div></article></div><div class="wedding-cta"><strong style="display:block;color:#173b70;font-size:clamp(20px,4vw,29px)">SABIR PAINTER</strong><strong style="display:block;color:#a66b00;font-size:21px">📞 8769360863</strong><a class="btn" href="tel:+918769360863">Call Now</a><a class="btn dark" href="https://wa.me/918769360863?text=Namaste%20Sabir%20Painter%2C%20mujhe%20wedding%20painting%20ke%20baare%20mein%20jaankari%20chahiye." target="_blank" rel="noopener">WhatsApp Chat</a></div></div><div class="gallery-grid"><div class="gallery-box">🎨<br>Wall Painting</div><div class="gallery-box">💍<br>Wedding Painting</div><div class="gallery-box">🏡<br>Interior Design</div><div class="gallery-box">🚜<br>Vehicle Artwork</div></div><a class="btn" href="https://wa.me/918769360863?text=Namaste%2C%20mujhe%20aapka%20artwork%20dekhna%20hai.">अपना काम दिखाएँ</a></section>
 <section class="section" id="payment"><div class="heading"><h2>Service Inquiry</h2><p>सेवा की विस्तृत जानकारी प्राप्त करें</p></div><div class="payment"><h3>Royal Service Inquiry</h3><div class="price">₹200</div><p>Service Inquiry / Consultation Charge</p><p class="warning">⚠️ महत्वपूर्ण: ₹200 का Inquiry Charge भुगतान करने से पहले ध्यान दें कि यह शुल्क Non-Refundable (वापस नहीं होगा) है।</p><a class="btn" href="https://rzp.io/rzp/pXgcp7X4" target="_blank" rel="noopener">₹200 PAY NOW</a><a class="btn dark" href="https://wa.me/918769360863">पहले जानकारी पूछें</a><p style="font-size:12px;color:#ddd;margin-top:15px">भुगतान की पुष्टि फिलहाल टीम द्वारा रसीद जाँचकर WhatsApp पर की जाएगी। Automatic Payment Verification अभी सक्रिय नहीं है।</p></div></section>
 <section class="contact" id="contact"><h2>👑 SAGAR ART Royal Service</h2><p>आपका काम, हमारा Royal अंदाज!</p><p>📍 322230 Hindaun City, Rajasthan</p><p>📞 8769360863</p><a class="btn" href="tel:+918769360863">अभी Call करें</a><a class="btn dark" href="https://wa.me/918769360863">WhatsApp करें</a></section>
 </main>
