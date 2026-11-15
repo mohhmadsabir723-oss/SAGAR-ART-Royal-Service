@@ -228,6 +228,7 @@ footer{background:#102b59;color:#eaf1ff;border-top:3px solid #d4a63e;padding:22p
 .royal-video-card h3{padding:13px 15px;color:#174a89;font-size:17px}
 .royal-video-card p{padding:0 15px 15px;color:#59677c;font-size:12px}
 </style>
+  <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet">
 </head>
 <body>
 <header><div class="logo">👑 SAGAR ART</div><nav><a href="#home">Home</a><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#agri">Agri Seeds</a><a href="#market-pulse">Mandi Bhav</a><a href="#payment">Inquiry</a><a href="#contact">Contact</a></nav></header>
@@ -323,10 +324,18 @@ footer{background:#102b59;color:#eaf1ff;border-top:3px solid #d4a63e;padding:22p
 <section class="royal-videos" id="royal-videos">
  <div class="heading"><h2>🎬 SABIR PAINTER – असली काम का वीडियो</h2><p>Truck Painting • Trolley Painting • Vehicle Artwork</p></div>
  <article class="royal-video-card sabir-feature-video">
-  <video controls playsinline preload="metadata" style="display:block;width:100%;height:auto;max-height:720px;background:#080808;border-radius:14px">
+  <video
+   id="sabirVideo"
+   class="video-js vjs-big-play-centered vjs-fluid"
+   controls
+   playsinline
+   preload="metadata"
+   data-setup='{"fluid":true,"responsive":true,"playbackRates":[0.5,0.75,1,1.25,1.5,2]}'
+   style="width:100%;max-height:720px;background:#080808;border-radius:14px">
    <source src="SABIR_PAINTER_cinematic_video.mp4" type="video/mp4">
-   आपका ब्राउज़र वीडियो नहीं चला पा रहा है।
+   आपका ब्राउज़र इस वीडियो फॉर्मेट को सपोर्ट नहीं करता। MP4, WebM या HLS फॉर्मेट की सही वीडियो फ़ाइल का लिंक लगाएँ।
   </video>
+  <p style="font-size:12px;color:#667;margin-top:8px">यह प्लेयर MP4, WebM, OGG और सपोर्टेड HLS स्ट्रीम चला सकता है। असमर्थित फ़ाइलों को पहले कन्वर्ट करना होगा।</p>
   <h3>👑 SABIR PAINTER</h3><p>📞 8769360863</p>
  </article>
 </section>
@@ -336,5 +345,7 @@ footer{background:#102b59;color:#eaf1ff;border-top:3px solid #d4a63e;padding:22p
 <footer>© <span id="year"></span> SAGAR ART Royal Service. All Rights Reserved.</footer>
 <a class="float" href="https://wa.me/918769360863">WhatsApp ✆</a>
 <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+<script src="https://vjs.zencdn.net/8.16.1/video.min.js"></script>
+<script>if (window.videojs) { videojs('sabirVideo'); }</script>
 </body>
 </html>
