@@ -6,8 +6,13 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://mohhmadsabir723-oss.github.io/SAGAR-ART-Royal-Service/gramin-seva.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://mohhmadsabir723-oss.github.io/SAGAR-ART-Royal-Service/donation.html</loc>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 </urlset>
